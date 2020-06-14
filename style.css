@@ -1,0 +1,97 @@
+div#basic {
+  width: 1000px;
+}
+
+img {
+  width: 190px;
+  height: 190px;
+}
+
+img.standard {
+  width: 320px; 
+  height: 300px;
+  margin-left: 50px;
+}
+
+h3.h3-legend {
+  margin-bottom: 20px;
+  color: brown;
+}
+
+p.value-item {
+  margin-top: 30px;
+  font-size: 15pt;
+  font-weight: bold;
+  color: darkred;
+}
+
+div.side-w {
+  width: 600px;
+}
+
+div#basic-01 div.side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#basic-01 div.side div {
+  margin-right: 300px;
+  margin-left: 25px;
+}
+
+p.just {
+  text-align: justify;
+  line-height: normal;
+}
+
+p.just-js {
+  text-align: justify;
+  line-height: normal;
+  font-size: 13pt;
+}
+
+p.just-js strong.str-marg {
+  padding-left: 5px;
+}
+
+div.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px;
+}
+
+div.slider-right-hidden {
+  text-align: center;
+  margin-left: 6px;
+  padding-left: 100px;
+}
+
+input {
+  border-radius: 3px;
+  width: 70px;
+}
+
+input.name-id {
+  width: 150px;
+}
+
+input.read-only {
+  cursor: no-drop;
+}
+
+input.buy {
+  background-color: green;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin-top: 3px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+input.buy:hover {
+  background-color: rgb(10, 80, 10);
+}

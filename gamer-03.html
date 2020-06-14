@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Compulab C-Company LTDA</title>
+</head>
+<body>
+  <header>
+    <ul id="home">
+      <li><a class="nav" href="index.html">Home</a></li>
+      <li><a class="nav" href="index.html">Objetivo</a></li>
+      <img src="logo.png" alt="logo">
+      <li><a class="nav" href="index.html">Missão da Empresa</a></li>
+      <li><a id="active" class="nav" href="category.html">Categoria</a></li>
+    </ul>
+  </header>
+  <div id="basic-01">
+    <main>
+      <div class="side">
+        <img src="pc-gamer-03.png" alt="basic 01" class="standard">
+        <div class="side-w">
+          <h3 class="h3-legend">PC Gamer Intel Core i5 8GB HD 1TB (Nvidia Geforce GT) Monitor LED HDMI 19.5" Light</h3>
+          <p class="just">
+            <strong>Computador Gamer Easy Light II - Seus jogos prediletos em um PC com preço justo:</strong>
+            Essa linha é um upgrade da linha Light que foi criada para você que quer começar a jogar agora, mas tem uma limitação no orçamento para investir no seu PC Gamer.
+            Todos os integrantes dessa linha estão preparados para receber upgrades futuros, seja na placa de vídeo, memória, HDs, SSDs, etc.
+            Criamos uma maneira de você embarcar agora no universo gaming e quando quiser trocar algum componente para melhorar ainda mais o desempenho.
+          </p>
+          <p class="value-item">Valor: R$2.599,00</p>
+        </div>
+      </div>
+      <div class="down">
+        <form action="">
+          <fieldset>
+            <legend><h2>Preencha para comprar</h2></legend>
+            <div id="slider-left">
+              <div class="field">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" placeholder="John" maxlength="20" class="name-id" required>
+              </div>
+              <div class="field">
+                <label for="model">Modelo do computador:</label>
+                <input class="read-only" type="text" name="model" value="#gamer" readonly>
+              </div>
+              <div class="field">
+                <label for="price">Preço:</label>
+                <input class="read-only" type="text" name="price" value="R$2.599,00" readonly>
+              </div>
+              <div class="field">
+                <label for="quantity">Quantidade:</label>
+                <input type="number" name="quantity" value="1" min="0">
+              </div>
+            </div>
+          </fieldset>
+          <input class="buy" type="button" value="COMPRAR" name="buy" onclick="showDiv()">
+        </form>
+        <div id="slider-right-hidden">
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

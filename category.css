@@ -1,0 +1,27 @@
+#active {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  transition: 400ms;
+  color: white;
+  font-weight: bold
+}
+
+a.comp:hover {
+  color: black;
+}
+
+div#basic {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+div#basic li {
+  margin-left: 130px;
+  list-style-type: none;
+}
